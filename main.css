@@ -1,0 +1,319 @@
+
+
+.heading {
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 3.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #d6a1a1 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(1.75deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.heading:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.heading:hover:after {
+    bottom: 2px;
+    left: 2px;
+}
+
+@media (min-width: 768px) {
+    .heading {
+        padding: .75rem 3rem;
+        font-size: 1.25rem;
+    }
+
+    body {
+        text-align: center;
+    }
+
+
+
+    .chair {
+        margin-top: 40px;
+        background-color: #3DD1E7;
+        border: 0 solid #E5E7EB;
+        box-sizing: border-box;
+        color: #000000;
+        display: flex;
+        font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        line-height: 1.75rem;
+        padding: .75rem 1.65rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none #000000 solid;
+        text-decoration-thickness: auto;
+        width: 100%;
+        max-width: 460px;
+        position: relative;
+        cursor: pointer;
+        transform: rotate(-2deg);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .chair:focus {
+        outline: 0;
+    }
+
+    .chair:after {
+        content: '';
+        position: absolute;
+        border: 1px solid #000000;
+        bottom: 4px;
+        left: 4px;
+        width: calc(100% - 1px);
+        height: calc(100% - 1px);
+    }
+
+    .chair:hover:after {
+        bottom: 2px;
+        left: 2px;
+    }
+
+    @media (min-width: 768px) {
+        .chair {
+            padding: .75rem 3rem;
+            font-size: 1.25rem;
+        }
+    }
+
+    .laptop {
+        margin-top: 40px;
+        background-color: #3DD1E7;
+        border: 0 solid #E5E7EB;
+        box-sizing: border-box;
+        color: #000000;
+        display: flex;
+        font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        line-height: 1.75rem;
+        padding: .75rem 1.65rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none #000000 solid;
+        text-decoration-thickness: auto;
+        width: 100%;
+        max-width: 460px;
+        position: relative;
+        cursor: pointer;
+        transform: rotate(-2deg);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .laptop:focus {
+        outline: 0;
+    }
+
+    .laptop:after {
+        content: '';
+        position: absolute;
+        border: 1px solid #000000;
+        bottom: 4px;
+        left: 4px;
+        width: calc(100% - 1px);
+        height: calc(100% - 1px);
+    }
+
+    .laptop:hover:after {
+        bottom: 2px;
+        left: 2px;
+    }
+
+    @media (min-width: 768px) {
+        .laptop {
+            padding: .75rem 3rem;
+            font-size: 1.25rem;
+        }
+    }
+
+    .table {
+        margin-top: 40px;
+        background-color: #3DD1E7;
+        border: 0 solid #E5E7EB;
+        box-sizing: border-box;
+        color: #000000;
+        display: flex;
+        font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        line-height: 1.75rem;
+        padding: .75rem 1.65rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none #000000 solid;
+        text-decoration-thickness: auto;
+        width: 100%;
+        max-width: 460px;
+        position: relative;
+        cursor: pointer;
+        transform: rotate(-2deg);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .table:focus {
+        outline: 0;
+    }
+
+    .table:after {
+        content: '';
+        position: absolute;
+        border: 1px solid #000000;
+        bottom: 4px;
+        left: 4px;
+        width: calc(100% - 1px);
+        height: calc(100% - 1px);
+    }
+
+    .table:hover:after {
+        bottom: 2px;
+        left: 2px;
+    }
+
+    @media (min-width: 768px) {
+        .table {
+            padding: .75rem 3rem;
+            font-size: 1.25rem;
+        }
+    }
+
+    .tv {
+        margin-top: 40px;
+        background-color: #3DD1E7;
+        border: 0 solid #E5E7EB;
+        box-sizing: border-box;
+        color: #000000;
+        display: flex;
+        font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        line-height: 1.75rem;
+        padding: .75rem 1.65rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none #000000 solid;
+        text-decoration-thickness: auto;
+        width: 100%;
+        max-width: 460px;
+        position: relative;
+        cursor: pointer;
+        transform: rotate(-2deg);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .tv:focus {
+        outline: 0;
+    }
+
+    .tv:after {
+        content: '';
+        position: absolute;
+        border: 1px solid #000000;
+        bottom: 4px;
+        left: 4px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tv:hover:after {
+        bottom: 2px;
+        left: 2px;
+    }
+
+    @media (min-width: 768px) {
+        .tv {
+            padding: .75rem 3rem;
+            font-size: 1.25rem;
+        }
+    }
+
+    .statue {
+        margin-top: 40px;
+        background-color: #3DD1E7;
+        border: 0 solid #E5E7EB;
+        box-sizing: border-box;
+        color: #000000;
+        display: flex;
+        font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        line-height: 1.75rem;
+        padding: .75rem 1.65rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none #000000 solid;
+        text-decoration-thickness: auto;
+        width: 100%;
+        max-width: 460px;
+        position: relative;
+        cursor: pointer;
+        transform: rotate(-2deg);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .statue:focus {
+        outline: 0;
+    }
+
+    .statue:after {
+        content: '';
+        position: absolute;
+        border: 1px solid #000000;
+        bottom: 4px;
+        left: 4px;
+        width: calc(100% - 1px);
+        height: calc(100% - 1px);
+    }
+
+    .statue:hover:after {
+        bottom: 2px;
+        left: 2px;
+    }
+
+    @media (min-width: 768px) {
+        .statue {
+            padding: .75rem 3rem;
+            font-size: 1.25rem;
+        }
+    }}

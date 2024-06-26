@@ -1,0 +1,164 @@
+body{
+    text-align: center;
+}
+.objects{
+    font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  background-image: linear-gradient(to left, #101a1a,rgb(61, 88, 88), rgb(110, 143, 145) ,#f9f4f4);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.objects_detected{
+    font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  background-image: linear-gradient(to left, #101a1a,rgb(61, 88, 88), rgb(110, 143, 145) ,#f9f4f4);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.heading {
+    background-color: #3DD1E7;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    display: flex;
+    font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 3.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #d6a1a1 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(1.75deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.heading:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.heading:hover:after {
+    bottom: 2px;
+    left: 2px;
+}
+
+.back {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family:sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .back {
+    padding: 19px 32px;
+  }
+}
+
+.back:before,
+.back:after {
+  border-radius: 80px;
+}
+
+.back:before {
+  background-color: rgba(249, 58, 19, .32);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.back:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.back:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.back:active:not(:disabled) {
+  color: #ccc;
+}
+
+.back:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.back:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+  
+
